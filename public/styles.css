@@ -684,6 +684,22 @@ video {
   height: 50%;
 }
 
+.h-full {
+  height: 100%;
+}
+
+.h-\[80\%\] {
+  height: 80%;
+}
+
+.h-\[90\%\] {
+  height: 90%;
+}
+
+.h-\[85\%\] {
+  height: 85%;
+}
+
 .min-h-screen {
   min-height: 100vh;
 }
@@ -760,12 +776,20 @@ video {
   width: 85%;
 }
 
+.w-\[90\%\] {
+  width: 90%;
+}
+
 .grid-cols-4 {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-rows-3 {
+  grid-template-rows: repeat(3, minmax(0, 1fr));
 }
 
 .items-center {
